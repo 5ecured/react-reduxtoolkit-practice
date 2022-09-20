@@ -16,17 +16,17 @@ const App = () => {
     dispatch(calculateTotal())
   }, [cartItems])
 
-  useEffect(() => {
-    dispatch(getCartItems())
-  }, [])
+  // useEffect(() => {
+  //   dispatch(getCartItems())
+  // }, [])
 
-  if (isLoading) {
-    return (
-      <div className='loading'>
-        <h1>Loading...</h1>
-      </div>
-    )
-  }
+  // if (isLoading) {
+  //   return (
+  //     <div className='loading'>
+  //       <h1>Loading...</h1>
+  //     </div>
+  //   )
+  // }
 
   return (
     <main>
